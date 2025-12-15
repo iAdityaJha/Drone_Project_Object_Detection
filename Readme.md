@@ -1,14 +1,14 @@
 
-# 🛩️ Object Detection in Public Places using AirSim & YOLOv8
+# Object Detection in Public Places using AirSim & YOLOv8
 
-## 📌 Overview
+## Overview
 This project demonstrates **real-time aerial object detection and surveillance** in public spaces using the **Microsoft AirSim simulator** and the **YOLOv8 deep learning model**.
 
 A **multirotor drone** is manually flown in a simulated city environment. The drone’s live camera feed is streamed to Python, where **YOLOv8 detects and localizes objects** such as pedestrians, vehicles, and commuters in real time.
 
 ---
 
-## 🎯 Features
+## Features
 - Real-time object detection from aerial view  
 - Manual drone patrol using keyboard controls  
 - YOLOv8-based detection with confidence scores  
@@ -18,15 +18,15 @@ A **multirotor drone** is manually flown in a simulated city environment. The dr
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
-### 💻 Software
+### Software
 - Windows 10 / 11 (Recommended)
 - Microsoft AirSim (CityEnviron)
 - Python 3.8 / 3.9 / 3.10
 - Keyboard for manual control
 
-### 📦 Python Libraries
+### Python Libraries
 ```bash
 pip install numpy opencv-python ultralytics
 pip install airsim
@@ -34,7 +34,7 @@ pip install airsim
 
 ---
 
-## 🚀 Step-by-Step Execution Guide
+## Step-by-Step Execution Guide
 
 ### Step 1: Download AirSim
 1. Visit: https://github.com/microsoft/AirSim/releases  
@@ -113,13 +113,13 @@ python detect.py
 
 ---
 
-## 🧠 Key Concepts
+## Key Concepts
 - YOLOv8 Object Detection  
 - Aerial Surveillance  
 
 ---
 
-## 📝 Notes
+## Notes
 - NVIDIA GPU recommended
 - Use `yolov8n.pt` for higher FPS
 - Window focus required for keyboard input
